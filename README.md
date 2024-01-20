@@ -15,24 +15,24 @@ For example, if the numbers are (100, 4, 17, 9, 3, 2) and the target is 37, then
 
 To run this code, you can use the following example:
 
-#include <iostream>
-#include <vector>
-
-#include "Countdown.h"  // Include the header file for the Countdown solver
-
-int main() {
-    // Define the input numbers and target
-    std::vector<int> numbers{1, 2, 3, 4, 5, 6};
-    int target = 123;
-
-    // Solve the Countdown problem
-    CountdownSolution answer = solveCountdownProblem(numbers, target);
-
-    // Display the solution
-    std::cout << "Countdown Solution: " << answer.expression << " = " << answer.result << std::endl;
-
-    return 0;
-}
+    #include <iostream>
+    #include <vector>
+    
+    #include "Countdown.h"  // Include the header file for the Countdown solver
+    
+    int main() {
+        // Define the input numbers and target
+        std::vector<int> numbers{1, 2, 3, 4, 5, 6};
+        int target = 123;
+    
+        // Solve the Countdown problem
+        CountdownSolution answer = solveCountdownProblem(numbers, target);
+    
+        // Display the solution
+        std::cout << "Countdown Solution: " << answer.expression << " = " << answer.result << std::endl;
+    
+        return 0;
+    }
 
 Make sure to include the appropriate header file, in this case, Countdown.h, and replace the example numbers and target with your desired input.
 
